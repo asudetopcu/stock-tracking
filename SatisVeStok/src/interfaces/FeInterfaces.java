@@ -2,13 +2,22 @@ package interfaces;
 
 import javax.swing.*;
 
-public abstract class FeInterfaces {
+public class FeInterfaces {
 
-    public abstract void initPencere();
-    public abstract JPanel initPanel();
-    public abstract JMenuBar initBar();
-    public abstract JTabbedPane initTabs();
+    public void initPencere() {
+    }
 
+    public JPanel initPanel() {
+
+    }
+
+    public JMenuBar initBar() {
+        return null;
+    }
+
+    public JTabbedPane initTabs() {
+        return null;
+    }
 
 
 }

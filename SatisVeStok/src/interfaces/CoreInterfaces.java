@@ -2,8 +2,10 @@ package interfaces;
 
 import java.sql.Connection;
 
-public abstract class CoreInterfaces {
+public class CoreInterfaces {
 
-    public abstract Connection getConnection();
+    public Connection getConnection() {
+        return null;
+    }
 
 }
